@@ -2,10 +2,10 @@
   "name": "vite-vue-typescript-starter",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "dev:docs": "vuepress dev .",
-    "build:docs": "vuepress build ."
+    "dev": "vuepress dev .",
+    "build": "vuepress build .",
+    "dev:vue": "vite",
+    "build:vue": "vue-tsc --noEmit && vite build"
   },
   "dependencies": {
     "vue": "^3.2.37"

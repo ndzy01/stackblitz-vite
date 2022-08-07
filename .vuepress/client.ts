@@ -1,6 +1,5 @@
 import { defineClientConfig } from '@vuepress/client';
 import './index.css';
-// @ts-ignore
 import Pwd from './components/pwd.vue';
 
 export default defineClientConfig({
