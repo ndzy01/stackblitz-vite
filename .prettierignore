@@ -1,0 +1,8 @@
+node_modules
+.vuepress/.cache
+.vuepress/.temp
+.vuepress/dist
+test
+yarn.lock
+yarn-error.log
+package-lock.json
