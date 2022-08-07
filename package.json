@@ -1,0 +1,25 @@
+{
+  "name": "vite-vue-typescript-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "dev:docs": "vuepress dev .",
+    "build:docs": "vuepress build ."
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.4",
+    "vue-tsc": "^0.39.4",
+    "vuepress": "^2.0.0-beta.49",
+    "vuepress2-plugin-full-text-search": "^0.2.0"
+  }
+}
