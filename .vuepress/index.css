@@ -1,0 +1,42 @@
+.toggle-color-mode-button {
+  display: none;
+}
+
+.page .theme-default-content {
+  margin: 16px 0;
+  max-width: 100%;
+}
+
+.page-meta {
+  margin: 0;
+}
+
+.page-nav {
+  margin: 0;
+  max-width: 100%;
+}
+
+.navbar .navbar-items-wrapper .search-box {
+  padding-left: 16px;
+}
+
+.suggestion {
+  max-width: 500px;
+}
+
+.page-nav {
+  margin: 0;
+  max-width: 100%;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.my-8 {
+  margin: 8px 0;
+}

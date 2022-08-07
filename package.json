@@ -1,12 +1,9 @@
 {
   "name": "vite-vue-typescript-starter",
-  "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview",
     "dev:docs": "vuepress dev .",
     "build:docs": "vuepress build ."
   },

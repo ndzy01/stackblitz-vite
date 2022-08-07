@@ -1,7 +1,6 @@
 import { defineUserConfig, defaultTheme } from 'vuepress';
 import pluginFullTextSearch from 'vuepress2-plugin-full-text-search';
-import { containerPlugin } from '@vuepress/plugin-container';
-// import { fun } from './readFiles';
+import { fun } from './readFiles';
 
 export default defineUserConfig({
   base: '/',
@@ -19,14 +18,9 @@ export default defineUserConfig({
   ],
   theme: defaultTheme({
     logo: '/favicon.png',
-    // navbar: fun().nav,
-    // sidebar: fun().nav,
+    navbar: fun().nav,
+    sidebar: fun().nav,
   }),
   // @ts-ignore
-  plugins: [
-    [pluginFullTextSearch],
-    containerPlugin({
-      type: 'tip',
-    }),
-  ],
+  plugins: [[pluginFullTextSearch]],
 });
